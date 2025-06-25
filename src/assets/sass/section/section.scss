@@ -1,0 +1,303 @@
+#root{
+    margin: 0 auto;
+    height: 100vh;
+    width: 375px;
+}
+
+.Header_wrap{
+    width: 375px;
+    height: 60px;
+    background-color: #E7EAEF;
+
+    .Header{
+        display: flex;
+
+        img{
+            margin-top: 20px;
+        }
+
+        .left{
+            margin-left: 16px;
+        }
+        .center{
+            margin-left : 30%;
+        }
+        .right{
+            margin-left : 20%;
+        }
+    }
+
+}
+
+.Homepage_wrap{
+    position: relative;
+    height: 600px;
+
+
+    .Homepage{
+        position: relative;
+        height: 600px;
+        
+        div>img{
+            position: absolute;
+            z-index: 1;       
+        }
+
+        h4{
+        position: absolute;
+        z-index: 2;
+        margin-top: 200px;
+        margin-left: 50px;
+        font-size: 38px;
+        color: #333333;
+        
+    }
+    }
+
+    .Section1_wrap{
+
+        .title{
+            h3{
+                font-size: 25px;
+                text-align: center;
+                font-weight: 100;
+                top: 20px;
+            }
+            img{
+                align-items: center;
+                margin-left: 130px;
+            }
+            p{
+                width: 375px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+
+        .top, .bottom{
+            text-align: center;
+            img{
+                margin: 11px;
+                
+            }
+           
+            h3{
+                font-size: 15px;
+                font-weight: 200;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            p{
+                font-size: 20px;
+                color: red;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .top_img, .bottom_img{
+                display: flex;
+            }
+
+            h2{
+                font-weight: 200;
+                font-size: 20px;
+            }
+
+           
+        }
+        .collection{
+                h3{
+                    text-align: center;
+                    font-size: 25px;
+                    padding: 20px;
+                    font-weight: 150;
+                }
+                img{
+                    align-items: center;
+                    padding: 20px;
+                    padding-left: 0;
+                }
+                >div{
+                 img{margin-left: 55px;}
+                }
+        }
+
+        .justforyou{
+            h2{
+                font-weight: 150;
+                text-align: center;
+
+            }
+            .bar{
+                margin-left: 130px;
+                margin-bottom: 20px;
+            }
+            .product{
+                display: flex;
+                img{
+                    margin: 10px;
+                    margin-left: 0
+                }
+            }
+            .img1{
+                 h3{
+                font-size: 15px;
+                font-weight: 200;
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+
+            }
+
+            p{
+                font-size: 15px;
+                color: red;
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+            }
+            }
+        }
+       
+        .indicator{
+            margin-left: 170px;
+        }
+ 
+        .trending{
+            h3{
+            margin-top: 30px;
+            font-size: 25px;
+            text-align: center;
+            font-weight: 150;
+            }
+            p{color: #333333;}
+            .top{
+                display: flex;
+
+                .box1,.box2,.box3,.box4{
+                    width: 90px;
+                    height: 30px;
+                    background-color: #F9F9F9;
+                    border-radius: 30%;
+                    margin: 15px;
+                }
+            }
+
+            .bottom{
+                display: flex;
+
+                .box5,.box6,.box7{
+                    width: 150px;
+                    height: 30px;
+                    background-color: #F9F9F9;
+                    border-radius: 30%;
+                    margin: 25px;
+                    margin-left: 0;
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .open{
+        
+            height: 465px;
+            background-color: #f2f2f2;
+            .title{
+                img{
+                margin-top: 20px;}
+            }
+            .title_bar{
+                margin-left: 130px;
+            }
+            p{
+                color: #555555;
+                font-size: 14px;
+                text-align: center;
+            }
+            .top,.bottom{
+                display: flex;
+                width: 375px;
+                justify-content: space-evenly;
+               
+            }
+           .bottom_img{
+            img{
+            margin-left: 40%;
+            margin-top: 50px;}
+           }
+           
+        }
+
+        .followus{
+            h2{
+            margin-top: 30px;
+            font-size: 25px;
+            text-align: center;
+            font-weight: 150;
+            }
+            .insta{
+                width: 375px;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+
+
+}
+
+.Search_wrap{
+    margin: 0 auto;
+    height: 100vh;
+    width: 375px;
+}
+
+
+.Footer_wrap{
+    width: 375px;
+    height: 340px;
+
+    .section1{
+        p{
+            text-align: center;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .bar1, .bar2{
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        .text{
+            display: flex;
+            text-align: center;
+            width: 375px;
+            justify-content: space-between;
+            h2{
+                margin: 20px;
+                font-weight: 100;
+                font-size: 16px;
+            }
+            
+        }
+    }
+
+    .section2{
+        height: 45px;
+        background-color: #C4C4C4;
+        margin-bottom: 0;
+
+        p{
+            text-align: center;
+        }
+    }
+}
